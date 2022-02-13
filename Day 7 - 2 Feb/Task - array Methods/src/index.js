@@ -1,0 +1,14 @@
+import "./styles.css";
+console.clear();
+let arr1 = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
+let arr2 = arr1.filter((item) => item % 2 === 0);
+console.log(arr2);
+let arr3 = arr1.map((item) => item * 30);
+console.log(arr3);
+let arr4 = [1, 2, "34", "array", true];
+let arr5 = arr4.join();
+console.log(arr5);
+let arr6 = arr5.split(",");
+console.log(arr6);
+let arr7 = arr1.reduce((item, result) => item + result);
+console.log(arr7);

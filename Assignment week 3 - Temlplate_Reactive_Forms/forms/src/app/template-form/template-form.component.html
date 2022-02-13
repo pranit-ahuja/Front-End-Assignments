@@ -1,0 +1,26 @@
+<body>
+<div class="outer">
+  <div class="content">
+    <h2 class="content">Learn to code by watching others</h2>
+    <p class="content">See how experienced developers solve problems in real-time. Watching scripted tutorials is great, but understanding how developers think is invaluable.</p>
+  </div>
+<div class="form-outer">
+  <p class="form-outer"><span>Try it free 7 days</span> then $20/mo. thereafter</p>
+<div class="form">
+<form #login ="ngForm" (ngSubmit)="signIn(login.value)">
+  <input id="fname" type="text" placeholder="First name" name="fname" ngModel #fname="ngModel" required><br>
+  <small *ngIf="fname.invalid && fname.touched">Enter a first name</small><br>
+  <input id="lname" type="text" placeholder="Last name" name="lname" ngModel #lname="ngModel" required><br>
+  <small *ngIf="lname.invalid && lname.touched">Enter a last name</small><br>
+  <input id="mail" type="text" placeholder="Email Address" name="mail" ngModel #mail="ngModel" required email><br>
+  <small *ngIf="mail.invalid && mail.touched">Enter a valid mail address</small><br>
+
+  <input id="pass" type="password" placeholder="Password" name="pass" ngModel minlength="7" #pass="ngModel" required><br>
+  <small *ngIf="pass.invalid && pass.touched">Enter a valid password of a minimum length of 7 characters</small><br>
+  <button type="submit" [disabled]="login.invalid">CLAIM YOUR FREE TRIAL</button>
+  </form>
+  <p class="terms">By clicking the button, you are agreeing to our <a class="terms" href="">Terms and Services</a></p>
+</div>
+</div>
+</div>
+</body>

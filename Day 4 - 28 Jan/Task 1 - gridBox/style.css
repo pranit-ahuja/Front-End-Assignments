@@ -1,0 +1,57 @@
+div.container {
+  width: 60%;
+  height: 60%;
+  display: grid;
+  background-color: rgb(32, 0, 53);
+  grid-auto-flow: column;
+  border-radius: 10px;
+  align-content: space-between;
+  justify-content: space-between;
+  padding-left: 30px;
+  margin: auto;
+}
+div.item2 {
+  display: grid;
+  font-family: sans-serif;
+  color: grey;
+  justify-items: center;
+  justify-content: space-between;
+  grid-auto-flow: column;
+  font-size: 12px;
+  font-weight: bold;
+  margin: 30px;
+  margin-top: 10px;
+  width: 75%;
+}
+div.item1 {
+  margin: 30px;
+  margin-bottom: 10px;
+  width: 75%;
+}
+div.item3 {
+  grid-column: 2 / span 2;
+  grid-row: 1 / span 2;
+}
+img {
+  width: 100%;
+  height: 100%;
+  border-end-end-radius: 10px;
+  border-start-end-radius: 10px;
+}
+.sone {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  font-family: sans-serif;
+}
+.stwo {
+  color: rgb(148, 0, 148);
+}
+.sthree {
+  font-family: sans-serif;
+  color: grey;
+  font-size: 16px;
+}
+body {
+  background-color: rgb(10, 0, 32);
+}

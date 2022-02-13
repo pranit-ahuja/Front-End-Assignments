@@ -1,0 +1,27 @@
+body {
+  font-family: sans-serif;
+}
+#app {
+  display: flex;
+  margin: auto;
+  padding: auto;
+  width: 50%;
+  flex-direction: row;
+  justify-content: center;
+}
+#red {
+  background-color: red;
+  margin: auto;
+}
+#green {
+  background-color: green;
+  margin: auto;
+}
+#blue {
+  background-color: blue;
+  margin: auto;
+}
+#default {
+  background-color: white;
+  margin: auto;
+}

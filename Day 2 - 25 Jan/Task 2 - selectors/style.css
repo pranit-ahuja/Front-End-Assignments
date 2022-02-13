@@ -1,0 +1,42 @@
+p:first-child {
+  color: red;
+}
+p:nth-child(2) {
+  color: maroon;
+}
+input:focus {
+  background-color: rgba(255, 0, 0, 0.4);
+}
+input:hover {
+  border: 2px solid red;
+}
+a::before {
+  content: url(https://img.icons8.com/small/32/000000/wikipedia.png);
+}
+a {
+  font-size: 2em;
+}
+a:link {
+  color: teal;
+}
+a:visited {
+  color: dimgray;
+}
+a:hover {
+  color: rgb(126, 0, 0);
+}
+a:active {
+  color: blue;
+}
+p.note::first-line {
+  font-weight: bold;
+}
+div {
+  width: 30%;
+}
+div.note:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+p.note {
+  color: black;
+}

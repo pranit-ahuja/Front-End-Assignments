@@ -1,0 +1,61 @@
+h2 {
+  text-align: center;
+  font-size: 3em;
+  color: black;
+}
+h3.sub {
+  text-align: center;
+  font-size: 1.5em;
+  color: black;
+}
+h3 {
+  text-align: center;
+  font-size: 2em;
+  color: darkgray;
+}
+img {
+  width: 60%;
+  text-align: center;
+}
+div.img {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 40px;
+  padding-top: 0px;
+  margin: 80px;
+  margin-top: 50px;
+}
+p {
+  color: darkgray;
+}
+li {
+  color: darkgray;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+span.tl {
+  font-weight: bold;
+}
+div.tl {
+  margin-left: 80px;
+  margin-right: 80px;
+}
+a:link {
+  color: darkgray;
+  text-decoration: none;
+  font-size: 30px;
+  padding-left: 40px;
+  padding-bottom: 40px;
+}
+a:visited {
+  color: white;
+}
+a:hover {
+  font-size: 40px;
+}
+a:active {
+  color: red;
+}
+a::before {
+  content: url(https://plato.stanford.edu/symbols/sep-man-red.png);
+}

@@ -1,0 +1,26 @@
+<body>
+  <div class="outer">
+    <div class="content">
+      <h2 class="content">Learn to code by watching others</h2>
+      <p class="content">See how experienced developers solve problems in real-time. Watching scripted tutorials is great, but understanding how developers think is invaluable.</p>
+    </div>
+  <div class="form-outer">
+    <p class="form-outer"><span>Try it free 7 days</span> then $20/mo. thereafter</p>
+  <div class="form">
+  <form [formGroup]="login" (ngSubmit)="onSubmit()">
+    <input id="fname" type="text" placeholder="First name" name="fname" formControlName="fname"><br>
+    <small *ngIf="login.get('fname')?.invalid && login.get('fname')?.touched">Enter a first name</small><br>
+    <input id="lname" type="text" placeholder="Last name" name="lname" formControlName="lname"><br>
+    <small *ngIf="login.get('lname')?.invalid && login.get('lname')?.touched">Enter a last name</small><br>
+    <input id="mail" type="text" placeholder="Email Address" name="mail" formControlName="mail"><br>
+    <small *ngIf="login.get('mail')?.invalid && login.get('mail')?.touched">Enter a valid mail address</small><br>
+
+    <input id="pass" type="password" placeholder="Password" name="pass" minlength="7" formControlName="pass" required><br>
+    <small *ngIf="login.get('pass')?.invalid && login.get('pass')?.touched">Enter a valid password of a minimum length of 7 characters</small><br>
+    <button type="submit" [disabled]="login.invalid">CLAIM YOUR FREE TRIAL</button>
+    </form>
+    <p class="terms">By clicking the button, you are agreeing to our <a class="terms" href="">Terms and Services</a></p>
+  </div>
+  </div>
+  </div>
+  </body>

@@ -1,0 +1,11 @@
+import "./styles.css";
+console.clear();
+let arr = [0, 1, 2, 3, 4, 5, 6, 7, 8];
+let sarr = arr.slice(2, 6);
+console.log(sarr);
+arr.splice(2, 2, 99, 100);
+console.log(arr);
+console.log(arr.pop());
+arr.push(200);
+arr.shift();
+arr.unshift(2000);

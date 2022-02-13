@@ -1,0 +1,15 @@
+h1 {
+  color: red;
+  font-size: 3rem;
+}
+#box {
+  font-size: 3em;
+  background-color: rgba(2, 111, 2, 0.5);
+  width: 40%;
+}
+#inner {
+  font-size: 4rem;
+  background-color: rgba(3, 33, 233, 0.5);
+  width: 50vw;
+  height: 50vh;
+}

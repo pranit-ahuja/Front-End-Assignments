@@ -1,0 +1,33 @@
+div.parent {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: dimgray;
+  width: 50%;
+  height: 100px;
+  border-radius: 7px;
+}
+a.options {
+  margin-right: 10px;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 20px;
+  -webkit-text-fill-color: rgb(22, 49, 0);
+}
+div.logo {
+  margin: 20px;
+  margin-right: 30px;
+  margin-left: 0px;
+}
+a.options2 {
+  margin-right: 10px;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 20px;
+  -webkit-text-fill-color: rgb(0, 0, 0);
+}
+body {
+  background-color: rgb(14, 31, 0);
+}
