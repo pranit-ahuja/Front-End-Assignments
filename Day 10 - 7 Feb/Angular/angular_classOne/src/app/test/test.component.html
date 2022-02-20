@@ -1,0 +1,43 @@
+
+<div class="body">
+  <div class="outer">
+    <img id="drawer" src="/assets/images/drawers.jpg" />
+    <div class="content">
+      <p class="fpara">
+        Shift the overall look and feel by adding these wonderful touches to
+        furniture in your home
+      </p>
+      <p class="spara">
+        Ever been in a room and felt like something was missing? Perhaps it
+        felt slightly bare and uninviting. I've got some simple tips to help
+        you make any room feel complete.
+      </p>
+      <div class="foot">
+        <div class="info">
+          <img id="av" src="/assets/images/avatar-michelle.jpg" />
+          <div class="name">
+            <p class="n">Michelle Appleton</p>
+            <p class="date">28 Jun 2020</p>
+          </div>
+        </div>
+        <button id="a" (click)="toggle()">
+          <img id="logo" src="assets/images/icon-share.svg" />
+        </button>
+      </div>
+
+      <div id="share" [ngClass]="bool==false?'show':'show-two'">
+        <p id="tshare">SHARE</p>
+        <a href="" class="media"
+          ><img class="mlogo" src="assets/images/icon-facebook.svg"
+        /></a>
+        <a href="" class="media"
+          ><img class="mlogo" src="assets/images/icon-twitter.svg"
+        /></a>
+        <a href="" class="media"
+          ><img class="mlogo" src="assets/images/icon-pinterest.svg"
+        /></a>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="src/index.js"></script>
