@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(41, 8, 4);
+    color: bisque;
+    font-family:Arial, Helvetica, sans-serif;
+}
+div.catalog{
+    display: flex;
+    justify-content: flex-start;
+    margin: auto;
+    width: 80%;
+    text-align: center;  
+    flex-wrap: wrap;
+}
+div.item{
+    margin: 1.25em;
+}
+h2{
+    text-align: center;
+}

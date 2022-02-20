@@ -1,0 +1,16 @@
+div.catalog{
+    display: flex;
+    justify-content: flex-start;
+    margin: auto;
+    width: 80%;
+    text-align: center;  
+    flex-wrap: wrap;
+}
+div.item{
+    margin: 1.25em;
+}
+button{
+    background-color: bisque;
+    font-weight: bold;
+    padding: 0.4em;
+}
